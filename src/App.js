@@ -27,6 +27,15 @@ function App() {
   return (
     <div className="App">
       {errorMessage ? <div>${errorMessage}</div> : ""}
+
+      <div className="container">
+    
+    <ul className="comments">
+
+
+    </ul>
+
+  </div>`;
     </div>
   );
 }
