@@ -10,7 +10,7 @@ export const getPosts = () => {
   return axios
     .get(`${baseUrl}/posts`, { headers: headers })
     .then((response) => {
-      console.log(response);
+    //   console.log(response);
       return response;
     });
 };
